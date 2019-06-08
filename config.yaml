@@ -83,10 +83,10 @@ params:
       text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: The CMMS Master Guide
+    subtitle: Crunch the numbers, impress your management
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    buttonText: Download
     buttonLink: "#"
   section4:
     title: CMMS University
@@ -104,7 +104,14 @@ params:
       text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
       img: 3
       buttonText: Read More
-  section5: true
+    ebooks:
+    - title: The most kick ass ebook on CMMS
+      buttonText: Download
+      img: 1
+    - title: The second most kick ass ebook on CMMS
+      buttonText: Download
+      img: 2
+  section5: false
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg

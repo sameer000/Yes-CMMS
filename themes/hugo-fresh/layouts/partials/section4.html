@@ -1,7 +1,8 @@
 {{- $section4 := .Site.Params.section4 }}
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
-{{- $clients  := index $section4 "clients" }} 
+{{- $clients  := index $section4 "clients" }}
+{{- $ebooks   := index $section4 "ebooks"}}
 <section class="section is-medium section-secondary">
   <div class="container">
 
@@ -44,6 +45,30 @@
           </figure> -->
         </div>
         {{- end }}
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns is-vcentered">
+        {{- range $ebooks }}
+          <div class="column is-6">
+            <article class="ebook-card media icon-box columns">
+              <img class="column is-5" src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}">
+              <div class="media-content column is-7">
+                <div class="content">
+                  <p>
+                    <span class="icon-box-title">{{ .title }}</span>
+
+                    {{ if .buttonText }}
+                    <div class="card-action">
+                      <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+                    </div>
+                    {{ end }}
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>

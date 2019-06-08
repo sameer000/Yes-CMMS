@@ -7159,4 +7159,8 @@ body #backtotop a {
     padding-top: 0;
     margin-bottom: 20px; }
 
+.ebook-card {
+  margin: 0.75rem;
+  background-color: white; }
+
 /*# sourceMappingURL=style.css.map */
