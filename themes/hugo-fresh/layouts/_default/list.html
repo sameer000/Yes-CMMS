@@ -1,0 +1,16 @@
+{{ define "main"}}
+
+    {{ range .Data.Pages }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{ if .Params.sidebar }}
+    {{ partial "single/sidebar.html" . }}
+    {{ end }}
+
+    {{ partial "javascript.html" . }}
+
+{{ end }}

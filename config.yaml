@@ -1,0 +1,156 @@
+baseURL: https://condescending-mcnulty-957c28.netlify.com/
+languageCode: en-us
+title: Yes-CMMS
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/fresh.svg
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+    # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Features
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
+    button: true
+  hero:
+    # Main hero title
+    title: Know everything CMMS, then BUY.
+    # Hero subtitle (optional)
+    subtitle: Right CMMS will handhold you in your CMMS buying journey
+    # Button text
+    buttontext: 
+    # Where the main hero button links to
+    buttonlink: ""
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  section1:
+    title: The Top CMMS Vendors
+    subtitle: Know everything about them
+    tiles:
+    - title: SALES PROCESS
+      icon: mouse-globe
+      text: Why CMMS? What is a CMMS? How it helps? Everything you wanted to know about a CMMS and did not know who to ask. Learn through a number of useful articles that will support you in beginning your CMMS journey.
+      url: /
+      buttonText: 
+    - title: USER RATINGS
+      icon: laptop-cloud
+      text: Are you ready for a CMMS yet? Would it be ok to start with a spreadsheet system? If I opt for a CMMS, what ROI can I expect? How does the implementation progress? What kind of resources does a business have to commit when implementing a CMMS?
+      url: /
+      buttonText: 
+    - title: PRICING
+      icon: plug-cloud
+      text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
+      url: /
+      buttonText: 
+  section2:
+    title: The Right CMMS Promise
+    subtitle: This is how we help
+    image: mountain.jpeg
+    features:
+      # Icon (from /images/illustrations/icons/___.svg)
+    - title: LEARN
+      text: Why CMMS? What is a CMMS? How it helps? Everything you wanted to know about a CMMS and did not know who to ask. Learn through a number of useful articles that will support you in beginning your CMMS journey.
+      icon: laptop-globe
+    - title: UNDERSTAND
+      text: Are you ready for a CMMS yet? Would it be ok to start with a spreadsheet system? If I opt for a CMMS, what ROI can I expect? How does the implementation progress? What kind of resources does a business have to commit when implementing a CMMS?
+      icon: doc-sync
+    - title: BUY
+      text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
