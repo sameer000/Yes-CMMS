@@ -1,7 +1,7 @@
 {{- $section4 := .Site.Params.section4 }}
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
-{{- $clients  := index $section4 "clients" }}
+{{- $clients  := index $section4 "clients" }} 
 <section class="section is-medium section-secondary">
   <div class="container">
 
@@ -16,7 +16,23 @@
       <div class="columns is-vcentered">
         {{- range $clients }}
         <div class="column is-4">
-          <figure class="testimonial">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-image">
+                <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}">
+            </div>
+            <div class="card-title mt-20">
+              <h4>{{ .name }}</h4>
+            </div>
+            <div class="card-text mb-20">
+                <p>{{ .text }}</p>
+            </div>
+            {{ if .buttonText }}
+            <div class="card-action">
+              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+            </div>
+            {{ end }}
+          </div>
+          <!-- <figure class="testimonial">
             <blockquote>
               {{ .quote }}
             </blockquote>
@@ -25,7 +41,7 @@
               <h5>{{ .name }}</h5>
               <span>{{ .job }}</span>
             </div>
-          </figure>
+          </figure> -->
         </div>
         {{- end }}
       </div>

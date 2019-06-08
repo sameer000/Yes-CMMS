@@ -12,6 +12,10 @@
     {{ partial "section1.html" . }}
     {{ end }}  
 
+    {{ if .Site.Params.section5 }}
+    {{ partial "hero-footer.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.section3 }}
     {{ partial "section3.html" . }}
     {{ end }}
@@ -21,7 +25,7 @@
     {{ end }}
 
     {{ if .Site.Params.section5 }}
-    {{ partial "hero-footer.html" . }}
+    {{ partial "section5.html" . }}
     {{ end }}
 
     {{ if .Site.Params.footer }}

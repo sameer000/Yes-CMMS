@@ -89,21 +89,21 @@ params:
     buttonText: Get started
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: CMMS University
+    subtitle: Learn to your heart’s content
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
+    - name: Blog 1
+      text: Why CMMS? What is a CMMS? How it helps? Everything you wanted to know about a CMMS and did not know who to ask. Learn through a number of useful articles that will support you in beginning your CMMS journey.
       img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
+      buttonText: Read More
+    - name: Blog 2
+      text: Are you ready for a CMMS yet? Would it be ok to start with a spreadsheet system? If I opt for a CMMS, what ROI can I expect? How does the implementation progress? What kind of resources does a business have to commit when implementing a CMMS?
       img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
+      buttonText: Read More
+    - name: Blog 3
+      text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
       img: 3
+      buttonText: Read More
   section5: true
   footer:
     # Logo (from /images/logos/___)
