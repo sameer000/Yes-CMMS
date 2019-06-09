@@ -4,6 +4,27 @@ title: Yes-CMMS
 theme: hugo-fresh
 
 params:
+  sidebar:
+  #   #logo from /images/logos/____.svg
+  #   logo: fresh
+  # - sections:
+  #     title: Title 1
+  #     icon: cat
+  #   - links:
+  #       url: /landing/
+  #       text: landing
+  #   - links:
+  #       url: /landing/
+  #       text: landing
+  # - sections:
+  #     title: Title 1
+  #     icon: cat
+  #   - links:
+  #       url: /landing/
+  #       text: landing
+  #   - links:
+  #       url: /landing/
+  #       text: landing
   navbarlogo:
   # Logo (from static/images/logos/___)
    image: logos/fresh.svg
@@ -30,6 +51,21 @@ params:
   - title: Sign up
     url: /
     button: true
+  #Navbar for landing pages without any menu
+  empty_navbar:
+  #Landing Page
+  landing:
+    image: ebook
+    title: Download the ultimate guide on Preventive Maintenance
+    subtitle:
+    contenttitle: By reading this ebook you will understand
+    text:
+    ul:
+    - li: Why preventive maintenance?
+    - li: What is preventive maintenance? 
+    - li: How is a program maintenance program developed?
+    - li: When is the right time to implement a PM program?
+    - li: What could go wrong with a PM program?
   hero:
     # Main hero title
     title: Know everything CMMS, then BUY.
