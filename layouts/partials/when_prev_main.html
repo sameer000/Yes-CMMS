@@ -1,0 +1,25 @@
+{{ $wpm := .Site.Data.preventivemaintenance.when_prev_main }}
+<section class="section section-feature-grey is-medium" id="{{ $wpm.id }}">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $wpm.title }}</h2>
+      {{ with $wpm.subtitle }}
+      <h3 class="subtitle is-5 is-muted">{{ . }}</h3>
+      {{ end }}
+      <div class="divider is-centered"></div>
+      {{ with $wpm.paras }}
+        {{ range . }}
+          <p class="mt-30 text-align-left">{{ .text }}</p>
+        {{ end }}
+      {{ end }}
+      {{ range $wpm.subsections }}
+      <h3 class="title is-3 mt-30 text-align-left">{{ .heading }}</h3>
+        {{ with .paras }}
+          {{ range . }}
+          <p class="mt-20 text-align-left">{{ .text }}</p>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

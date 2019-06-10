@@ -1,0 +1,52 @@
+banner:
+  title: Preventive Maintenance - Get it right
+  paras:
+  - text: Preventive maintenance is maintenance that is regularly performed on machinery, equipment and assets to prevent or to lessen the chance of the equipment failing. It is performed while the equipment is still working so that it does not break down unexpectedly. Preventive maintenance trumps reactive maintenance anytime because reactive leads to loss of productivity and revenue. Preventive falls somewhere between reactive and predictive maintenance.
+  - text: Everything you wish to know about preventive maintenance can be found by perusing this page in detail.
+section6:
+  title: What do you want to learn about preventive maintenance?
+  subtitle: 
+  ul:
+  - li: Why Preventive maintenance - Introduction?
+    sectionLink: why_prev_main
+  - li: When Preventive maintenance?
+    sectionLink: why_prev_main
+    ul:
+    - li: Industry
+      sectionLink: why_prev_main
+      ul:
+      - li: Manufacturing
+        sectionLink: why_prev_main
+      - li: Facilities
+        sectionLink: why_prev_main
+      - li: Beverages
+        sectionLink: why_prev_main
+    - li: Company Size
+      sectionLink: why_prev_main
+  - li: What is preventive maintenance?
+    sectionLink: why_prev_main
+why_prev_main:
+  title:  Why preventive maintenance?
+  id: why-prev-main
+  subtitle: 
+  paras:
+  - text: Preventive maintenance is maintenance that is regularly performed on machinery, equipment and assets to prevent or to lessen the chance of the equipment failing. It is performed while the equipment is still working so that it does not break down unexpectedly. Preventive maintenance trumps reactive maintenance anytime because reactive leads to loss of productivity and revenue. Preventive falls somewhere between reactive and predictive maintenance.
+when_prev_main:
+  title:  When preventive maintenance?
+  id: when-prev-main
+  subtitle: 
+  paras:
+  - text: When an organisation takes up preventive maintenance depends completely on the nature of its business, its size and the compliance level of the sector. Sometimes there may be business compulsions as well like internal restructuring and initiatives.
+  subsections:
+  - heading: Industry
+    paras:
+    - text: The industry that your business operates in has a big role to play when it comes to deciding on preventive maintenance initiatives.
+    - text: In the industrial and civil sector, maintaining a high level of reliability and productivity, are primary strategic assets for the achievement of business success and the improvement of the value and competitiveness of enterprises in the market. The term “preventive maintenance” has become for the industry and not only, meaning of safety, preservation, protection and efficiency of the existing machinery inventory, assuming a fundamental role, in order to optimize the various activities along all stages of the process.
+    - text: Starting with an accurate initial configuration, and using a limited number of on-board sensors detecting different phenomena, it is possible from a component malfunction, to prevent machine inefficiency. It would be possible to predict a component malfunction using sensors that analyze its physical behavior. A predictive system can intercept this fail and send an alarm message as well as an intervention request, much more before the system breakdown; preventing machine major damage and loss of productivity.
+  - heading:  Manufacturing
+    paras:
+    - text: Today, poor maintenance strategies can reduce a plant’s overall productive capacity by 5 to 20 percent. Recent studies also show that unplanned downtime is costing industrial manufacturers an estimated $50 billion each year. This begs the question, “How often should a machine be taken offline to be serviced?” Traditionally, this dilemma forced most maintenance organizations into a trade-off situation where they had to choose between maximizing the useful life of a part at the risk of machine downtime (run-to-failure) or attempting to maximize uptime through early replacement of potentially good parts (time-based preventive maintenance), which has been demonstrated to be ineffective for most equipment components.
+  - heading:  Facilities
+    paras:
+    - text: Today, poor maintenance strategies can reduce a plant’s overall productive capacity by 5 to 20 percent. Recent studies also show that unplanned downtime is costing industrial manufacturers an estimated $50 billion each year. This begs the question, “How often should a machine be taken offline to be serviced?” Traditionally, this dilemma forced most maintenance organizations into a trade-off situation where they had to choose between maximizing the useful life of a part at the risk of machine downtime (run-to-failure) or attempting to maximize uptime through early replacement of potentially good parts (time-based preventive maintenance), which has been demonstrated to be ineffective for most equipment components.
+  
