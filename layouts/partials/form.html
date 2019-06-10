@@ -1,37 +1,47 @@
 <div class="columns">
   <div class="column is-12">
-    <form>
+    <form action="/thankyou">
       <div class="columns is-multiline">
-        <div class="column is-6">
-          <input class="input is-primary" type="text" name="fname" placeholder="First name">
+        <div class="field column is-6">
+          <div class="control">
+            <input class="input is-primary" type="text" name="fname" placeholder="First name" required>
+          </div>
         </div>
-        <div class="column is-6">
-          <input class="input is-primary" type="text" name="lname" placeholder="Last name">
+        <div class="field column is-6">
+          <input class="input is-primary" type="text" name="lname" placeholder="Last name" required>
         </div>
-        <div class="column is-12">
-          <input class="input is-info" type="email" name="email" placeholder="Enter your email address">
+        <div class="field column is-12">
+          <input class="input is-info" type="email" name="email" placeholder="Enter your email address" required>
         </div>
-        <div class="column is-12">
-          <input class="input is-info" type="tel" name="telephone" placeholder="Enter your phone number">
+        <div class="field column is-12">
+          <input class="input is-info" type="tel" name="telephone" placeholder="Enter your phone number" required>
         </div>
-        <div class="column is-12">
+        <div class="field column is-12">
           <input class="input is-primary" type="text" name="compay" placeholder="Company name">
         </div>
-        <div class="field column">
-          <div class="control">
-            <div class="select is-primary width-100">
-              <select placeholder="Role" class="width-100">
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
+        <div class="field column is-12">
+          <label class="label">Role</label>
+          <div class="control is-expanded">
+            <div class="select is-fullwidth is-primary">
+              <select name="role" required>
+                <option value="Argentina">Developer</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Suriname">Suriname</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
               </select>
             </div>
           </div>
         </div>
         <div class="form-footer has-text-centered mt-20">
-          <button class="button cta is-large primary-btn raised is-clear">Download</button>
+          <button type="submit" class="button cta is-large primary-btn raised is-clear">Download</button>
         </div>
       </div>
     </form>

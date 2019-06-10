@@ -66,6 +66,16 @@ params:
     - li: How is a program maintenance program developed?
     - li: When is the right time to implement a PM program?
     - li: What could go wrong with a PM program?
+  thankyou:
+    title: Thank You. You hungry learner :)
+    subtitle: To download the eBook, please check your email.
+    buttons:
+    - buttonText: Home
+      alignment:  text-align-right
+      buttonLink: /
+    - buttonText: Show me more resources
+      alignment:  text-align-left
+      buttonLink: /resources
   hero:
     # Main hero title
     title: Know everything CMMS, then BUY.

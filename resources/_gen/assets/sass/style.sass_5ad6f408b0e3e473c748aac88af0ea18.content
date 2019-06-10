@@ -7119,6 +7119,9 @@ body #backtotop a {
   /* Firefox 18- */
   color: #cecece; }
 
+.mt-30 {
+  margin-top: 30px; }
+
 .mxh-380 {
   max-height: 380px; }
 
@@ -7167,7 +7170,7 @@ body #backtotop a {
   width: 100%; }
 
 .title-wrapper {
-  max-width: 600px; }
+  max-width: 1280px; }
 
 .pt-medium {
   padding-top: 45px; }
@@ -7183,6 +7186,24 @@ body #backtotop a {
 
 .bolder {
   font-weight: 700; }
+
+.line-height-1point5em {
+  line-height: 1.5em; }
+
+.line-height-2em {
+  line-height: 2em; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-left {
+  text-align: left; }
+
+.text-align-center {
+  text-align: center; }
+
+.button-width-210 {
+  min-width: 210px; }
 
 ul.is-styled {
   list-style: inside; }

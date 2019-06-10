@@ -1,0 +1,27 @@
+{{ define "main" }}
+	{{- $thankyou	:= .Site.Params.thankyou }}
+	{{- $title 		:= index $thankyou "title" }}
+	{{- $subtitle 	:= index $thankyou "subtitle" }}
+	{{- $buttons 	:= index $thankyou "buttons"}}
+	<div class="is-fullheight is-default is-bold">
+		{{ partial "navbar.html" . }}
+		<div class="hero-body">
+			<div class="container">
+				<div class="title-wrapper has-text-centered">
+					<h2 class="title is-2 is-spaced">{{ $title }}</h2>
+			      	{{ with $subtitle}}
+			      	<h3 class="subtitle is-5 is-muted">{{ . }}</h3>
+			      	{{ end }}
+				</div>
+				<div class="columns mt-30">
+					{{ range $buttons }}
+					<div class="column is-6 {{ .alignment }}">
+						<a class="button is-outlined button-width-210" href="{{ .buttonLink }}">{{ .buttonText }}</a>
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+
+{{ end }}
