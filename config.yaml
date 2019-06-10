@@ -34,8 +34,8 @@ params:
     sizes: [400,600]
     # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
+  - title: Downloads
+    url: /landing
   - title: Pricing
     url: /
   - title: Dropdown
