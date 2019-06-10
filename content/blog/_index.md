@@ -1,5 +1,5 @@
 ---
 title: First
-sidebar: true
+sidebar: false
 sidebarlogo: fresh-white-alt
 ---
