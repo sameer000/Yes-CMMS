@@ -7122,6 +7122,10 @@ body #backtotop a {
 .mt-30 {
   margin-top: 30px; }
 
+.m-lr-20 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
 .mxh-380 {
   max-height: 380px; }
 
@@ -7204,6 +7208,22 @@ body #backtotop a {
 
 .button-width-210 {
   min-width: 210px; }
+
+.flex-responsive {
+  display: flex;
+  flex-direction: row; }
+
+@media (max-width: 767px) {
+  .mb-m-20 {
+    margin-bottom: 20px; }
+  .flex-responsive {
+    flex-direction: column; } }
+
+.align-center {
+  align-items: center; }
+
+.justify-center {
+  justify-content: center; }
 
 ul.is-styled {
   list-style: inside; }

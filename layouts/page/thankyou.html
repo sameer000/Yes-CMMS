@@ -13,11 +13,9 @@
 			      	<h3 class="subtitle is-5 is-muted">{{ . }}</h3>
 			      	{{ end }}
 				</div>
-				<div class="columns mt-30">
+				<div class="flex-responsive align-center justify-center mt-30">
 					{{ range $buttons }}
-					<div class="column is-6 {{ .alignment }}">
-						<a class="button is-outlined button-width-210" href="{{ .buttonLink }}">{{ .buttonText }}</a>
-					</div>
+					<a class="button is-outlined is-primary is-info button-width-210 m-lr-20 mb-m-20" href="{{ .buttonLink }}">{{ .buttonText }}</a>
 					{{ end }}
 				</div>
 			</div>

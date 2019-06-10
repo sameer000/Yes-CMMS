@@ -71,10 +71,8 @@ params:
     subtitle: To download the eBook, please check your email.
     buttons:
     - buttonText: Home
-      alignment:  text-align-right
       buttonLink: /
     - buttonText: Show me more resources
-      alignment:  text-align-left
       buttonLink: /resources
   hero:
     # Main hero title
