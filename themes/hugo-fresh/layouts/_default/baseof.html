@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
+    <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
     {{ partial "meta.html" . }}
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
   </head>
   <body>

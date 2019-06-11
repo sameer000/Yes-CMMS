@@ -1,6 +1,5 @@
 baseURL: https://www.rightcmms.com/
 languageCode: en-us
-title: Yes-CMMS
 theme: hugo-fresh
 
 params:
