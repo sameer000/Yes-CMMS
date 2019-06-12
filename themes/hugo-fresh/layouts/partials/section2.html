@@ -12,18 +12,20 @@
     </div>
     <div class="content-wrapper">
       <div class="columns">
-        <div class="column is-centered-tablet-portrait">
-          <img src="{{ printf "/images/%s" $image | relURL }}" class="cover mxh-450" alt="mountains description">
+        <div class="column is-centered-tablet-portrait is-5-desktop is-half-tablet">
+          <figure class="image is-5by4">
+            <img src="{{ printf "/images/illustrations/mockups/%s" $image | relURL }}" class="mxh-450" alt="mountains description">
+          </figure>
         </div>
-        <div class="column is-7">
+        <div class="column is-7-desktop is-half-tablet">
           {{- range $features }}
           <article class="media icon-box">
-            <figure class="media-left">
+            <!-- <figure class="media-left">
               <p class="image">
                 <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
               </p>
-            </figure>
-            <div class="media-content  mt-20">
+            </figure> -->
+            <div class="media-content">
               <div class="content">
                 <p>
                   <span class="icon-box-title">{{ .title }}</span>

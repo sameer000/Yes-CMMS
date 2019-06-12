@@ -67,7 +67,7 @@ params:
     - li: What could go wrong with a PM program?
   thankyou:
     title: Thank You. You hungry learner :)
-    subtitle: To download the eBook, please check your email.
+    subtitle: To download the eBook, please check youur email.
     buttons:
     - buttonText: Home
       buttonLink: /
@@ -113,18 +113,18 @@ params:
   section2:
     title: The Right CMMS Promise
     subtitle: This is how we help
-    image: mountain.jpeg
+    image: CMMS-The-right-cmms-promise-Mockup-image.svg
     features:
       # Icon (from /images/illustrations/icons/___.svg)
     - title: LEARN
       text: Why CMMS? What is a CMMS? How it helps? Everything you wanted to know about a CMMS and did not know who to ask. Learn through a number of useful articles that will support you in beginning your CMMS journey.
-      icon: laptop-globe
+      icon: CMMS-The-right-CMMS-Promise-Learn-Logo
     - title: UNDERSTAND
       text: Are you ready for a CMMS yet? Would it be ok to start with a spreadsheet system? If I opt for a CMMS, what ROI can I expect? How does the implementation progress? What kind of resources does a business have to commit when implementing a CMMS?
-      icon: doc-sync
+      icon: CMMS-The-right-CMMS-Promise-Understand-Logo
     - title: BUY
       text: Which CMMS to buy? Who are the vendors? Who can best meet my requirements? How do they compare amongst each other? There are so many out there. Are there FREE trials that can help me test drive the right CMMS?
-      icon: mobile-feed
+      icon: CMMS-The-right-CMMS-Promise-Buy-Logo
   section3:
     title: The CMMS Master Guide
     subtitle: Crunch the numbers, impress your management
