@@ -28,7 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 200);
     }
   };
-
+  window.onload = function(){
+    lazyLoad();
+  }
   document.addEventListener("scroll", lazyLoad);
   window.addEventListener("resize", lazyLoad);
   window.addEventListener("orientationchange", lazyLoad);
