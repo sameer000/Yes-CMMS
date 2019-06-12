@@ -3,6 +3,7 @@
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
 {{- $image    := index $section2 "image" }}
+{{- $lazyimage:= index $section2 "lazyimage" }}
 <section class="section is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
@@ -14,7 +15,7 @@
       <div class="columns">
         <div class="column is-centered-tablet-portrait is-5-desktop is-half-tablet">
           <figure class="image is-5by4">
-            <img src="{{ printf "/images/illustrations/mockups/%s" $image | relURL }}" class="mxh-450" alt="mountains description">
+            <img src="{{ printf "/images/illustrations/mockups/%s" $lazyimage | relURL }}" data-src="{{ printf "/images/illustrations/mockups/%s" $image | relURL }}" class="transition lazy" alt="mountains description">
           </figure>
         </div>
         <div class="column is-7-desktop is-half-tablet">

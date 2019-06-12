@@ -83,7 +83,7 @@ params:
     # Where the main hero button links to
     buttonlink: ""
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/CMMS-Homepage-Banner-image.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -113,7 +113,8 @@ params:
   section2:
     title: The Right CMMS Promise
     subtitle: This is how we help
-    image: CMMS-The-right-cmms-promise-Mockup-image.svg
+    image: CMMS-The-right-cmms-promise-Mockup-image.png
+    lazyimage: CMMS-The-right-cmms-promise-Mockup-image-lazy.png
     features:
       # Icon (from /images/illustrations/icons/___.svg)
     - title: LEARN
