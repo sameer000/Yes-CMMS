@@ -100,3 +100,28 @@ h4
     flex-direction: column
   img.pushed-image
     margin-top: -14vh
+.container
+  margin: 0 auto
+  position: relative
+  +desktop
+    max-width: $desktop - (6 * $gap)
+    width: $desktop - (6 * $gap)
+    &.is-fluid
+      margin-left: $gap
+      margin-right: $gap
+      max-width: none
+      width: auto
+  +until-widescreen
+    &.is-widescreen
+      max-width: $widescreen - (6 * $gap)
+      width: auto
+  +until-fullhd
+    &.is-fullhd
+      max-width: $fullhd - (6 * $gap)
+      width: auto
+  +widescreen
+    max-width: $widescreen - (6 * $gap)
+    width: $widescreen - (6 * $gap)
+  +fullhd
+    max-width: $fullhd - (6 * $gap)
+    width: $fullhd - (6 * $gap)
