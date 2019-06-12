@@ -129,6 +129,7 @@ params:
     title: The CMMS Master Guide
     subtitle: Crunch the numbers, impress your management
     image: illustrations/mockups/app-mockup.png
+    lazyimage: illustrations/mockups/app-mockup-lazy.png
     buttonText: Download
     buttonLink: "#"
   section4:
