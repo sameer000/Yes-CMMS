@@ -1,6 +1,7 @@
 {{ define "main"}}
 	{{- $landing	:= .Site.Params.landing }}
 	{{- $image      := index $landing "image" }}
+	{{- $alt 		:= index $landing "alt" }}
 	{{- $title 		:= index $landing "title" }}
 	{{- $subtitle 	:= index $landing "subtitle" }}
 	{{- $contenttitle := index $landing "contenttitle" }}
@@ -30,7 +31,7 @@
 					</div>
 					<div class="column">
 						<figure class="image is-4by5">
-							<img src="{{ printf "/images/%s.jpeg" $image | relURL }}" alt="Downloadable Ebook">
+							<img src="{{ printf "/images/%s.jpeg" $image | relURL }}" alt="{{ $alt }}">
 						</figure>
 					</div>
 					<div class="column">
