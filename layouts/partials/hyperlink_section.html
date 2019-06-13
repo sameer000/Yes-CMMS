@@ -1,15 +1,16 @@
-{{ $section6 := .Site.Data.preventivemaintenance.section6 }}
-<section class="section section-feature-grey is-medium">
+{{ $hyperlinkSection := .Site.Data.preventivemaintenance.hyperlinkSection }}
+{{ $bgColor          := index $hyperlinkSection "bgColor" }}
+<section class="section has-background-{{ with $bgColor }}{{.}}{{ end }} is-medium">
   <div class="container is-readable">
     <div class="title-wrapper">
-      <h2 class="title is-2 text-align-left">{{ $section6.title }}</h2>
-      {{ with $section6.subtitle }}
+      <h2 class="title is-2 text-align-left">{{ $hyperlinkSection.title }}</h2>
+      {{ with $hyperlinkSection.subtitle }}
       <h3 class="subtitle is-5 is-muted text-align-left">{{ . }}</h3>
       {{ end }}
       <div class="divider is-left"></div>
     </div>
     <ul class="is-styled line-height-2em text-align-left width-auto mt-30">
-      	{{ range $section6.ul }}
+      	{{ range $hyperlinkSection.ul }}
       		<a data-src="{{ .SectionIdToLink }}"><li>{{ .li }}</li></a>
       		{{ with .ul }}
   			<ul class="is-styled line-height-2em text-align-left ml-30">

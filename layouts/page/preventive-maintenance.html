@@ -5,9 +5,9 @@
 		<div class="hero-body">
 			<div class="container is-readable">
 				<div class="title-wrapper">
-			      <h2 class="title is-1">{{ $pm.banner.title }}</h2>
+			      <h1 class="title is-1 is-bold is-spaced">{{ $pm.banner.title }}</h1>
 			      {{ range $pm.banner.paras }}
-			      <p>{{ .text }}</p>
+			      <p class="subtitle is-5 mt-20">{{ .text }}</p>
 			      {{ end }}
 			  	</div>
 			</div>
