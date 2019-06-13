@@ -3,6 +3,10 @@
 
 .mt-30
   margin-top: 30px
+.border-l-thin
+  border-left: 1px solid black
+.pl-30
+  padding-left: 30px
 .m-lr-20
   margin-left: 20px
   margin-right: 20px
@@ -103,7 +107,14 @@ h3
 h4
   font-size: 1em
   font-weight: normal
+@media(min-width: 768px)
+  .pl-t-30
+    padding-left: 30px
+  .bl-t-thin
+    border-left: 1px solid black
 @media(max-width: 767px)
+  .pl-m-zero
+    padding-left: 0px
   .mb-m-20
     margin-bottom: 20px
   .mb-m-30

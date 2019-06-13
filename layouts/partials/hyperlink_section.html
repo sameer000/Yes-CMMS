@@ -10,15 +10,15 @@
     </div>
     <ul class="is-styled line-height-2em text-align-left width-auto mt-30">
       	{{ range $section6.ul }}
-      		<a href="#{{ .sectionLink }}"><li>{{ .li }}</li></a>
+      		<a data-src="{{ .SectionIdToLink }}"><li>{{ .li }}</li></a>
       		{{ with .ul }}
   			<ul class="is-styled line-height-2em text-align-left ml-30">
   				{{ range . }}
-  				<a href="#{{ .sectionLink }}"><li>{{ .li }}</li></a>
+  				<a data-src="{{ .SectionIdToLink }}"><li>{{ .li }}</li></a>
   				{{ with .ul }}
 	  			<ul class="is-styled line-height-2em text-align-left ml-30">
 	  				{{ range . }}
-	  				<a href="#{{ .sectionLink }}"><li>{{ .li }}</li></a>
+	  				<a data-src="{{ .SectionIdToLink }}"><li>{{ .li }}</li></a>
 	  				{{ end }}
 	  			</ul>
 	      		{{ end }}

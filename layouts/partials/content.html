@@ -1,0 +1,53 @@
+{{ $content := .Site.Data.preventivemaintenance.content }}
+{{	range $content }}
+	<section class="section {{ with .bgColor }}{{.}}{{ end }} is-medium" id="{{ .sectionId }}">
+	  <div class="container is-readable">
+	    <div class="title-wrapper">
+	      <h2 class="title is-2">{{ .h2 }}</h2>
+	      {{ with .subtitle }}
+	      <p class="subtitle is-5 is-muted">{{ . }}</p>
+	      {{ end }}
+	      <div class="divider is-left"></div>
+	    </div>
+      	{{ with .paras }}
+	        {{ range . }}
+	    <p class="mt-20 text-align-left">{{ .p }}</p>
+	        {{ end }}
+      	{{ end }}
+      	{{ with .subSections }}
+		    {{ range . }}
+		    	<div class="pl-t-30 bl-t-thin" id="{{ .subSectionId }}">
+			    	<div class="title-wrapper mt-40">
+				      <h3 class="title is-3">{{ .h3 }}</h3>
+				      {{ with .subtitle }}
+				      <p class="subtitle is-5 is-muted">{{ . }}</p>
+				      {{ end }}
+				    </div>
+			      	{{ with .paras }}
+				        {{ range . }}
+				    <p class="mt-20 text-align-left">{{ .p }}</p>
+				        {{ end }}
+			      	{{ end }}
+			      	{{ with .subSubSections }}
+				    {{ range . }}
+				    	<div class="pl-t-30 bl-t-thin" id="{{ .subSubSectionId }}">
+					    	<div class="title-wrapper mt-40">
+						      <h3 class="title is-4">{{ .h4 }}</h3>
+						      {{ with .subtitle }}
+						      <p class="subtitle is-5 is-muted">{{ . }}</p>
+						      {{ end }}
+						    </div>
+					      	{{ with .paras }}
+						        {{ range . }}
+						    <p class="mt-20 text-align-left">{{ .p }}</p>
+						        {{ end }}
+					      	{{ end }}
+					    </div>
+				    {{ end }}
+				</div>
+		    {{ end }}
+		    {{ end }}
+	    {{ end }}
+	  </div>
+	</section>
+{{	end	}}
