@@ -211,7 +211,11 @@ params:
       column3:
         title: "Blog"
         links:
-        - text: Latest news
+        - text: First Blog
           link: /blog/first
-        - text: Tech articles
+        - text: Second Blog
           link: /blog/second
+        - text: Third Blog
+          link: /blog/third
+        - text: Fourth Blog
+          link: /blog/fourth

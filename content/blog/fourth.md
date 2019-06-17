@@ -1,5 +1,5 @@
 ---
-title: "Fourth Post"
+title: Fourth
 date: 2019-06-17T17:19:44+05:30
 draft: false
 subtitle: Type your subtitle here - the summary that would appear on blog cards

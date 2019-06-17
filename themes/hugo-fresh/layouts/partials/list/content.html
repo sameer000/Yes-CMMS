@@ -1,6 +1,10 @@
 <div class="is-fullheight is-default is-bold">
   <div class="hero-body pt-medium pb-medium">
     <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h1 class="title is-1 is-bold is-spaced">{{ .Title }}</h2>
+        <div class="divider m-lr-auto mb-30"></div>
+      </div>
       <div class="columns wrap">
         {{ range .Data.Pages}}
         <div class="column is-4-desktop is-6-tablet is-12-mobile">
