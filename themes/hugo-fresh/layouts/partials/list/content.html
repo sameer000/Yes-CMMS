@@ -1,37 +1,39 @@
-<section class="section is-medium">
-  <div class="container">
-    <div class="columns wrap">
-      {{ range .Data.Pages}}
-      <div class="column is-4-desktop is-6-tablet is-12-mobile">
-        <a href="/blog/{{ replace (lower .Title) " " "-"}}">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="{{ .Params.image }}" class="contain" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="{{ .Params.author_image }}" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <h4 class="mb-0 bold">{{ .Params.author_name }}</h4>
-                  <a href="{{ .Params.author_handle_link }}"><p class="subtitle is-6">@{{ .Params.author_handle }}</p></a>
-                </div>
+<div class="is-fullheight is-default is-bold">
+  <div class="hero-body pt-medium pb-medium">
+    <div class="container">
+      <div class="columns wrap">
+        {{ range .Data.Pages}}
+        <div class="column is-4-desktop is-6-tablet is-12-mobile">
+          <a href="/blog/{{ replace (lower .Title) " " "-" }}">
+            <div class="card brad-10">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="{{ .Params.image }}" class="contain" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="{{ .Params.author_image }}" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <h4 class="mb-0 bold">{{ .Params.author_name }}</h4>
+                    <a href="{{ .Params.author_handle_link }}"><p class="subtitle is-6">@{{ .Params.author_handle }}</p></a>
+                  </div>
+                </div>
 
-              <div class="content">
-                <p>{{ .Summary }}</p>
-                <p>{{ .Date.Format "January 2, 2006" }}</p>
+                <div class="content">
+                  <p>{{ .Summary }}</p>
+                  <p>{{ .Date.Format "January 2, 2006" }}</p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
   </div>
-</section>
+</div>
