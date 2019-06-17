@@ -1,10 +1,6 @@
 {{ define "main"}}
 
-    {{ range .Data.Pages }}
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Content}}</p>
-    {{ end }}
-
+    {{ partial "list/list.html" . }}
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 

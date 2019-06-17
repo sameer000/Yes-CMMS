@@ -1,11 +1,12 @@
 ---
-title: second
+title: third
+date: 2019-06-17T17:08:21+05:30
+draft: false
 description: Dolore in aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
-image: /images/illustrations/worker.png
-date: 2018-03-20T15:26:23-06:00
+image: /images/illustrations/CMMS-Homepage-Banner-image.svg
 author_name: Rold Margruv
 author_handle: rold
-author_handle_link: https://gk400282.github.io/
+author_handle_link: https://www.rightcmms.com/
 author_image: /images/illustrations/faces/1.png
 sidebar: False
 sidebarlogo: fresh-white-alt

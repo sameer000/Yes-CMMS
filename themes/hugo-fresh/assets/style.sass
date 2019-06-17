@@ -5,6 +5,8 @@
   margin-top: 30px
 .mb-20
   margin-bottom: 20px
+.mb-0
+  margin-bottom: 0px
 .border-l-thin
   border-left: 1px solid black
 .pl-30
@@ -24,8 +26,6 @@
   object-fit: contain
 .cover
   object-fit: cover
-.contain
-  object-fit: contain
 .scale-down
   object-fit: scale-down
 .none
@@ -91,6 +91,8 @@
   align-items: center
 .justify-center
   justify-content: center
+.wrap
+  flex-wrap: wrap
 img.lazy
   filter: blur(20px)
 .transition
@@ -113,6 +115,16 @@ a
   color: inherit
 .is-readable p
   color: #818181
+.container.is-readable a
+  border-bottom: 2px solid #fc0;
+  border-bottom-color: rgb(255, 204, 0);
+  background-image: linear-gradient(120deg, #fc0 0%, #fc0 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.0em;
+  background-position: 0 100%;
+  transition: background-size 0.125s ease-in;
+  &:hover
+    background-size: 100% 100%
 .container.is-readable
   margin: 0 auto
   position: relative
@@ -142,7 +154,9 @@ a
   .pl-t-30
     padding-left: 30px
   .bl-t-thin
-    border-left: 1px solid black
+    border-left: 1px solid
+  .bc-grey
+    border-color: #818181
 @media(max-width: 768px)
   .pl-m-zero
     padding-left: 0px

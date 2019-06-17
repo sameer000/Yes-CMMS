@@ -16,7 +16,7 @@
       	{{ end }}
       	{{ with .subSections }}
 		    {{ range . }}
-		    	<div class="pl-t-30 bl-t-thin" id="{{ .subSectionId }}">
+		    	<div class="pl-t-30 bl-t-thin bc-grey" id="{{ .subSectionId }}">
 			    	<div class="title-wrapper mt-40">
 				      <h3 class="title is-3">{{ .h3 }}</h3>
 				      {{ with .subtitle }}
@@ -30,7 +30,7 @@
 			      	{{ end }}
 			      	{{ with .subSubSections }}
 				    {{ range . }}
-				    	<div class="pl-t-30 bl-t-thin" id="{{ .subSubSectionId }}">
+				    	<div class="pl-t-30 bl-t-thin bc-grey" id="{{ .subSubSectionId }}">
 					    	<div class="title-wrapper mt-40">
 						      <h3 class="title is-4">{{ .h4 }}</h3>
 						      {{ with .subtitle }}

@@ -1,6 +1,7 @@
 baseURL: https://www.rightcmms.com/
 languageCode: en-us
 theme: hugo-fresh
+summaryLength: 21
 
 params:
   sidebar:
@@ -35,8 +36,8 @@ params:
   navbar:
   - title: Downloads
     url: /landing
-  - title: Pricing
-    url: /
+  - title: Blog
+    url: /blog
   - title: Learn
     sublinks:
     - title: Preventive Maintenance
