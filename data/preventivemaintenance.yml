@@ -10,9 +10,9 @@ hyperlinkSection:
   subtitle: 
   ul:
   - li: Why Preventive maintenance - Introduction?
-    SectionIdToLink: why_prev_main
+    SectionIdToLink: why-prev-main
   - li: When Preventive maintenance?
-    SectionIdToLink: when_prev_main
+    SectionIdToLink: when-prev-main
     ul:
     - li: Industry
       SectionIdToLink: industry
@@ -24,9 +24,9 @@ hyperlinkSection:
       - li: Beverages
         SectionIdToLink: beverages
     - li: Company Size
-      SectionIdToLink: company_size
+      SectionIdToLink: company-size
   - li: What is preventive maintenance?
-    SectionIdToLink: what_prev_main
+    SectionIdToLink: what-prev-main
 content:
 - h2: Why preventive maintenance?
   bgColor: white

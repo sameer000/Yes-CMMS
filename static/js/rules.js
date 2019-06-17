@@ -35,3 +35,11 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("resize", lazyLoad);
   window.addEventListener("orientationchange", lazyLoad);
 });
+const links = document.querySelectorAll('.hyperlink-list a');
+links.forEach(function(link){
+  link.addEventListener('click', function(){
+    document.getElementById(link.getAttribute('data-src')).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  });
+});
+
+

@@ -9,7 +9,7 @@
       {{ end }}
       <div class="divider is-left"></div>
     </div>
-    <ul class="is-styled line-height-2em text-align-left width-auto mt-30">
+    <ul class="hyperlink-list is-styled line-height-2em text-align-left width-auto mt-30">
       	{{ range $hyperlinkSection.ul }}
       		<a data-src="{{ .SectionIdToLink }}"><li>{{ .li }}</li></a>
       		{{ with .ul }}
