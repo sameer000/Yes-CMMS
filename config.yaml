@@ -46,6 +46,11 @@ params:
       url: /
     - title: Dropdown item
       url: /
+  - title: Sign up
+    url: /
+  - title: Login
+    url: /
+    button: true
   #Navbar for landing pages without any menu
   empty_navbar:
   #Landing Page
