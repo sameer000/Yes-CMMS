@@ -1,5 +1,7 @@
 ---
-title: second
+title: Second
+subtitle: 
+summary: Type your subtitle here - the summary that would appear on blog cards
 description: Dolore in aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
 image: /images/illustrations/worker.png
 date: 2018-03-20T15:26:23-06:00

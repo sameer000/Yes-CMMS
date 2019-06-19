@@ -1,5 +1,7 @@
 ---
-title: first
+title: First
+subtitle: 
+summary: Type your subtitle here - the summary that would appear on blog cards
 description: Dolore in aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
 image: /images/illustrations/CMMS-Homepage-Banner-image.svg
 date: 2017-02-20T15:26:23-06:00

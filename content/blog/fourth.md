@@ -1,10 +1,12 @@
 ---
 title: Fourth
+subtitle: 
+category: Preventive Maintenance
 date: 2019-06-17T17:19:44+05:30
 draft: false
-subtitle: Type your subtitle here - the summary that would appear on blog cards
+summary: Type your subtitle here - the summary that would appear on blog cards
 description: Type the long description for meta tag. Dolore in aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
-image: /images/illustrations/CMMS-Homepage-Banner-image.svg
+image: /images/illustrations/digital.jpg
 author_name: Author Name
 author_handle: author_tag
 author_handle_link: https://www.rightcmms.com/
@@ -13,11 +15,11 @@ sidebar: False
 sidebarlogo: fresh-white-alt
 ---
 
-# aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
+## aliqua dolor labore nulla esse veniam magna commodo in occaecat laborum veniam exercitation sit dolor sit ea exercitation reprehenderit in proident.
 
 <br/>
 
-## My super sweet first blog post!!
+### My super sweet first blog post!!
 
 <br/>
 

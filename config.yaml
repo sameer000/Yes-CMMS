@@ -31,7 +31,7 @@ params:
    link: /
   font:
     name: "Open Sans"
-    sizes: [400,600, 700]
+    sizes: [400,600,700]
     # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Downloads

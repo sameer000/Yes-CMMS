@@ -8,11 +8,11 @@
       <div class="columns wrap">
         {{ range .Data.Pages}}
         <div class="column is-4-desktop is-6-tablet is-12-mobile">
-          <div class="card brad-10">
+          <div class="card brad-10 hidden">
             <div class="card-image">
               <figure class="image is-4by3">
                 <a href="/blog/{{ replace (lower .Title) " " "-" }}">
-                  <img src="{{ .Params.image }}" class="contain" alt="Placeholder image">
+                  <img src="{{ .Params.image }}" class="cover" alt="Placeholder image">
                 </a>
               </figure>
             </div>
