@@ -1,2 +1,2 @@
 # Yes-CMMS
-CMMS Software comparison website
+CMMS Software Comparison Website
