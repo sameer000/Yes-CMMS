@@ -195,8 +195,6 @@ params:
           link: /
         - text: Our roadmap
           link: /
-        - text: AGB
-          link: /agb
       column2:
         title: "Docs"
         links:

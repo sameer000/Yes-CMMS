@@ -47,14 +47,5 @@
       <description>Type your subtitle here - the summary that would appear on blog cards</description>
     </item>
     
-    <item>
-      <title>AGB</title>
-      <link>https://www.rightcmms.com/agb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.rightcmms.com/agb/</guid>
-      <description>§1 Lorem Bacon ipsum dolor amet pig pork hamburger tenderloin burgdoggen spare ribs bacon pancetta pork loin tail turducken. Chicken pastrami jerky tongue ball tip strip steak.</description>
-    </item>
-    
   </channel>
 </rss>
