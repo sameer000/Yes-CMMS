@@ -77,7 +77,7 @@ params:
       buttonLink: /resources
   hero:
     # Main hero title
-    title: Know everything CMMS, then BUY.
+    title: Know everything CMMS, then BUY...
     # Hero subtitle (optional)
     subtitle: Right CMMS will handhold you in your CMMS buying journey
     # Button text
